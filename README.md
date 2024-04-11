@@ -1,4 +1,10 @@
-# mmdetection3d_MySample1
+
+we should download 
+https://download.openmmlab.com/mmdetection3d/v1.0.0_models/pgd/pgd_r101_caffe_fpn_gn-head_3x4_4x_kitti-mono3d/pgd_r101_caffe_fpn_gn-head_3x4_4x_kitti-mono3d_20211022_102608-8a97533b.pth
+
+and copy to root folder 
+
+/////////////////////////////////////////////////////////////////////////////////
 
 
 i used gpt and 
@@ -12,7 +18,3 @@ and we are try to change it to run many images in a loop
 and based on this 
 [https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html](https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html#monocular-3d-demo)
 
-we should download 
-https://download.openmmlab.com/mmdetection3d/v1.0.0_models/pgd/pgd_r101_caffe_fpn_gn-head_3x4_4x_kitti-mono3d/pgd_r101_caffe_fpn_gn-head_3x4_4x_kitti-mono3d_20211022_102608-8a97533b.pth
-
-and copy to root folder 
