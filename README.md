@@ -18,3 +18,9 @@ and we are try to change it to run many images in a loop
 and based on this 
 [https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html](https://mmdetection3d.readthedocs.io/en/latest/user_guides/inference.html#monocular-3d-demo)
 
+
+
+this is sample to run
+
+python demo/mono_det_demo.py demo/data/kitti/000008.png demo/data/kitti/000008.pkl  configs/pgd/pgd_r101-caffe_fpn_head-gn_4xb3-4x_kitti-mono3d.py pgd_r101_caffe_fpn_gn-head_3x4_4x_kitti-mono3d_20211022_102608-8a97533b.pth  --show --cam-type CAM2 --print-result
+
