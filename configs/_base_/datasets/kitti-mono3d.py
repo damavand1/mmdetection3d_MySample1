@@ -29,7 +29,10 @@ train_pipeline = [
         with_bbox_3d=True,
         with_label_3d=True,
         with_bbox_depth=True),
-    dict(type='Resize', scale=(1242, 375), keep_ratio=True),
+    #dict(type='Resize', scale=(1242, 375), keep_ratio=True),
+    #dict(type='Resize', scale=(640, 360), keep_ratio=True),
+
+
     dict(type='RandomFlip3D', flip_ratio_bev_horizontal=0.5),
     dict(
         type='Pack3DDetInputs',
@@ -40,7 +43,9 @@ train_pipeline = [
 ]
 test_pipeline = [
     dict(type='LoadImageFromFileMono3D', backend_args=backend_args),
-    dict(type='Resize', scale=(1242, 375), keep_ratio=True),
+    #dict(type='Resize', scale=(1242, 375), keep_ratio=True),
+    #dict(type='Resize', scale=(640, 360), keep_ratio=True),
+
     dict(type='Pack3DDetInputs', keys=['img'])
 ]
 eval_pipeline = [
